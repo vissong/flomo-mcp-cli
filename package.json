@@ -1,0 +1,26 @@
+{
+  "name": "flomo-mcp-cli",
+  "version": "0.1.0",
+  "description": "A zero-runtime-dependency CLI wrapper for the flomo MCP HTTP server.",
+  "type": "module",
+  "bin": {
+    "flomo-cli": "./src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "flomo",
+    "mcp",
+    "cli"
+  ],
+  "license": "MIT"
+}
